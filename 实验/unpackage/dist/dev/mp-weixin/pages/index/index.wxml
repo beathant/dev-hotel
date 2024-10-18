@@ -1,0 +1,20 @@
+<!--pages/index/index.wxml-->
+<text>pages/index/index.wxml</text>
+<text>
+/br</text>
+<button type="primary" size="mini" bindtap="tapHandler">按钮</button>
+<view>
+{{title}}
+</view>
+<view>
+{{n+m}}
+</view>
+<view>
+{{age>=18?'chengnian':'weichengnian '}}
+  </view>
+<view>
+{{ toparseint(11)}}
+</view>
+<view>
+{{age}}
+</view>
